@@ -73,7 +73,7 @@ class InputDate extends InputGroupComponent
      */
     public function makeItemClass()
     {
-        $classes = ['form-control', 'datetimepicker'];
+        $classes = ['form-control', 'datetimepicker-input'];
 
         if ($this->isInvalid() && ! isset($this->disableFeedback)) {
             $classes[] = 'is-invalid';
